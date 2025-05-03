@@ -1,0 +1,12 @@
+doorman <> on_leave
+% tick
+--------------------
+-> uuid: uuid
+--------------------
+.
+--------------------
+! when any player leaves the game.
+--------------------
+ provides leaving player's <uuid>.
+--------------------
+

@@ -1,0 +1,12 @@
+doorman <> on_join
+% tick
+# AS [joiner]
+--------------------
+.
+--------------------
+.
+--------------------
+! when any player joins the game.
+--------------------
+ [joiner] is the player that joined.
+--------------------
