@@ -3,9 +3,10 @@
 # ./trigger
 #--------------------
 
+# HOOK <> on_leave:
 data modify storage doorman:hook on_leave.uuid set from storage doorman:_ var.leave.left[-1].uuid
-
 function #doorman:hook/on_leave
+
 data remove storage doorman:hook on_leave
 
 data remove storage doorman:_ var.leave.left[-1]
