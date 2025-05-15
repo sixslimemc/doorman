@@ -1,4 +1,4 @@
-doorman <> on_leave
+doorman <> leave
 % tick
 --------------------
 -> uuid: uuid

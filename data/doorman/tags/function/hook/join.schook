@@ -1,4 +1,4 @@
-doorman <> on_join
+doorman <> join
 % tick
 # AS [joiner]
 --------------------

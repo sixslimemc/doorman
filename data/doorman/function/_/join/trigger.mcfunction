@@ -6,7 +6,7 @@
 scoreboard players set @s _doorman.join -1
 
 # onjoin:
-function #doorman:hook/on_join
+function #doorman:hook/join
 
 # setup onleave:
 scoreboard players add *joined_this_tick _doorman 1
