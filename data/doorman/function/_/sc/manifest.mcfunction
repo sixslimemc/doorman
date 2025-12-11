@@ -1,4 +1,4 @@
-#> doorman:_/manifest
+#> doorman:_/sc/manifest
 # @ MANIFEST
 
 data modify storage slimecore:in manifest.pack set value {}

@@ -1,4 +1,4 @@
-#> doorman:_/disable
+#> doorman:_/sc/disable
 # @ DISABLE
 
 # TODO

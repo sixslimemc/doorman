@@ -1,4 +1,4 @@
-#> doorman:_/uninstall
+#> doorman:_/sc/uninstall
 # @ UNINSTALL
 
 # TODO
