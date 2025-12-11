@@ -1,3 +1,4 @@
+use ::six::mcdoc::def::Uuid
 
 struct VariableRegister {
     [string]: any
@@ -11,6 +12,11 @@ dispatch minecraft:storage[doorman:_] to struct {
     u: VariableRegister,
     /// in-scope temp
     x: VariableRegister,
+    data: struct {
+        players: [struct {
+            uuid: Uuid
+        }]
+    }
 }
 dispatch minecraft:storage[doorman:_/in] to struct {
     [any]: any

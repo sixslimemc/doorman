@@ -5,14 +5,14 @@ dispatch minecraft:storage[doorman:in] to struct In {
 dispatch minecraft:storage[doorman:out] to struct Out {
     [any]: any
 }
-
+dispatch minecraft:storage[doorman:hook] to struct Hook {
+    [any]: any
+}
 dispatch minecraft:storage[doorman:api] to struct Api {
 
 }
 
-dispatch minecraft:storage[doorman:hook] to struct Hook {
 
-}
 
 dispatch minecraft:storage[doorman:abstract/in] to struct AbstractIn {
 
