@@ -1,0 +1,8 @@
+use ::six::mcdoc::def::Uuid
+inject struct ::doorman::mcdoc::api::Hook {
+    /// % tick
+    /// ! when a player leaves the game.
+    leave: struct Data {
+        uuid: Uuid,
+    },
+}
