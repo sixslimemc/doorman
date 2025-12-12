@@ -1,0 +1,7 @@
+
+dispatch minecraft:storage[doorman:hook] to struct Hook {
+    /// called when a player joins, as the player.
+    join: super::hook::join::Hook,
+    /// called when a player leaves.
+    leave: super::hook::leave::Hook,
+}

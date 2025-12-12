@@ -1,0 +1,4 @@
+
+struct Hook {
+    uuid: ::six::mcdoc::def::Uuid
+}

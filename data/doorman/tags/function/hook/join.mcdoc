@@ -1,7 +1,0 @@
-
-inject struct ::doorman::mcdoc::api::Hook {
-    /// % tick
-    /// AS [player]
-    /// ! when a [player] joins the game.
-    join: struct Data {},
-}
