@@ -1,4 +1,0 @@
-
-dispatch minecraft:storage[doorman:api] to struct Api {
-
-}

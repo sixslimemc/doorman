@@ -1,4 +1,0 @@
-
-dispatch minecraft:storage[doorman:config] to struct Config {
-
-}

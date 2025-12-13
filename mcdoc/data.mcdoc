@@ -1,4 +1,0 @@
-
-dispatch minecraft:storage[doorman:data] to struct Data {
-
-}
