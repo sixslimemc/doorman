@@ -1,6 +1,7 @@
-#> doorman:_/entrypoints/check
-# ENTRYPOINT: check
-schedule function doorman:_/entrypoints/check 1t
+#> doorman:_/entrypoints/main
+# ENTRYPOINT: main
+
+schedule function doorman:_/entrypoints/main 1t
 
 execute as @a unless score @s _doorman.join matches -1 run function doorman:_/main/join/trigger
 
