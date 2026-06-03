@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "TODO",
+    "description": "Provides on-join and on-leave hooks. (Library)",
     "min_format": 101,
     "max_format": 101
   }
