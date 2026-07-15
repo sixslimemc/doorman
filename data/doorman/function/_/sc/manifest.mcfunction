@@ -29,4 +29,6 @@ data modify storage slimecore:in manifest.pack.dependencies append value {option
 
 data modify storage slimecore:in manifest.pack.is_library set value true
 
+data modify storage slimecore:in manifest.pack.loader_version set value {major:0, minor:3}
+
 function slimecore:api/manifest
