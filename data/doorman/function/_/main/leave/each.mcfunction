@@ -3,7 +3,7 @@
 # ./trigger
 #--------------------
 
-# HOOK <> leave:
+# HOOK : leave
 data modify storage doorman:hook leave.uuid set from storage doorman:_ t.leave.left[-1].uuid
 function #doorman:hook/leave
 data remove storage doorman:hook leave

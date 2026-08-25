@@ -1,4 +1,4 @@
 
 struct Hook {
-    
+    uuid: #[uuid] [int] @ 4,
 }
