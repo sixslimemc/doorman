@@ -20,8 +20,8 @@ data modify storage slimecore:in manifest.pack.entrypoints set value []
 data modify storage slimecore:in manifest.pack.entrypoints append value {id:"main"}
 
 data modify storage slimecore:in manifest.pack.preload_entrypoints set value []
-data modify storage slimecore:in manifest.pack.abstract_declarations set value []
-data modify storage slimecore:in manifest.pack.abstract_implementations set value []
+data modify storage slimecore:in manifest.pack.contract_declarations set value []
+data modify storage slimecore:in manifest.pack.contracts_satisfied set value []
 
 data modify storage slimecore:in manifest.pack.dependencies set value []
 data modify storage slimecore:in manifest.pack.dependencies append value {optional:false, pack_id:"six", author_id:"sixslime", version:{major:0, minor:1}, download:{version:{major:0,minor:1,patch:0}, url:"https://github.com/sixslimemc/six/releases/download/v0.1.0/sixslime.six.0.1.0.zip"}}
